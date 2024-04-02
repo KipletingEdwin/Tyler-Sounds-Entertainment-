@@ -1,0 +1,27 @@
+.navbar{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.menu{
+    background-color: green;
+    height: 100%;
+}
+
+.menuList{
+    display: flex;
+    background-color: yellow;
+    list-style: none;
+}
+
+.menuList li{
+    font-size: 25px;
+    font-weight: 600;
+}
