@@ -1,9 +1,9 @@
 .navbar{
-    background-color: red;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    /* background-color: red; */
 }
 .logo{
     height: 50px;
@@ -11,17 +11,69 @@
 }
 
 .menu{
-    background-color: green;
     height: 100%;
+}
+
+.menu img{
+    display: none;
 }
 
 .menuList{
     display: flex;
-    background-color: yellow;
     list-style: none;
 }
 
 .menuList li{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menuList li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width: 830px) { 
+    
+    .navbar{
+        position: relative;
+    }
+
+    .menu{
+        background-color: green;
+        margin-right: 5%;
+    }
+
+    .menu img{
+        display: block;
+    }
+
+    .menuList{
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        
+    }
+
+    .menuOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: blue; */
+        z-index: 3;
+    }
+
+    .menuOpen li{
+        /* background-color: green; */
+        opacity: 0.6;
+        
+       
+    }
+    
+
 }
