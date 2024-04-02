@@ -1,0 +1,41 @@
+.container{
+    margin-top: 5%;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #fff;
+}
+
+.headphones{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.ItemsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutImage{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptionContainer{
+    width: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    text-shadow: 2px 2px #FF0000;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: green; */
+    padding: 15px;
+}

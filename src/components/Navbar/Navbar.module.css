@@ -10,6 +10,12 @@
     width: auto;
 }
 
+.title{
+    color: #fff;
+    font-family: 'Acumin Variable';
+    background-color: red;
+}
+
 .menu{
     height: 100%;
 }
