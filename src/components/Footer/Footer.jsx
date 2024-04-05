@@ -42,7 +42,7 @@ function Footer() {
         </div>
 
         <div className={styles.rights}>
-            <p> &copy; 2023 DJ Tyller. All rights reserved </p>
+            <p> &copy; 2023 Tyller Sounds Entertainment. All rights reserved </p>
         </div>
         
     </section>
