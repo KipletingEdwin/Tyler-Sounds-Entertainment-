@@ -8,7 +8,6 @@ import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-
 function Footer() {
   return (
     <section className={styles.container}>
-
         <div className={styles.socials}>
             <img src={logo}  alt='logo'/>
             <ul>

@@ -22,13 +22,14 @@
 .socials ul{
     list-style: none;
     display: flex;
-    width: 50%;
+    width: 30%;
     justify-content: space-around;
+    margin-right: 15%;
   
 }
 
 .socials ul li{
-    padding: 20px;
+    padding: 5px;
 
 }
 
@@ -46,6 +47,10 @@
     color: #fff;
     margin-top: 10px;
     border-bottom: 1px solid white;
+}
+
+.contacts p{
+    padding: 20px;
 }
 
 .icons{
@@ -73,7 +78,7 @@
 
 .rights{
     color: white;
-    background-color: #d71462;
+    /* background-color: #d71462; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -90,32 +95,49 @@
 @media screen and (max-width: 830px) {
 
     .container{
-        background-color: yellow;
         margin: 0px;
         padding: 0px;
     }
 
     .socials{
-        background-color: green;
         padding: 10px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socials img{
+        height: 60px;
+        margin-bottom: 5%;
     }
 
     .socials ul{
         display: flex;
         justify-content: space-between;
+        width: 100%;
+        margin: 0px;
        
     }
 
     .socials ul li{
-        background-color: #ff5364;
+        background-color: transparent;
         padding: 5px;
+    }
+
+    .socials ul li a{
+        font-size: 15px;
     }
 
     .contacts{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .email h4{
+        text-align: center;
     }
     
 }
