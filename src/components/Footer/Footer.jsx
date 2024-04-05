@@ -8,6 +8,7 @@ import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-
 function Footer() {
   return (
     <section className={styles.container}>
+
         <div className={styles.socials}>
             <img src={logo}  alt='logo'/>
             <ul>
@@ -17,6 +18,7 @@ function Footer() {
                 <li><a href='/contact'>Contact</a> </li>
             </ul>
         </div>
+
         <div className={styles.contacts}>
             <div className={styles.phone}>
                  <h4>  <FontAwesomeIcon icon={faPhone} className={styles.icons} />PHONE</h4>
@@ -43,6 +45,7 @@ function Footer() {
         <div className={styles.rights}>
             <p> &copy; 2023 DJ Tyller. All rights reserved </p>
         </div>
+        
     </section>
   )
 }

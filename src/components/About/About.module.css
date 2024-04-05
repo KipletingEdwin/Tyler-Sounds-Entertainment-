@@ -53,3 +53,23 @@
     color: #FF0000;
     padding-right: 8px;
 }
+
+
+@media screen and (max-width: 830px){
+    .ItemsContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .aboutImage{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .descriptionContainer{
+        width: 100%;
+    }
+    
+}
