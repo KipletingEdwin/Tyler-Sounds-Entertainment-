@@ -139,5 +139,10 @@
     .email h4{
         text-align: center;
     }
+
+    .rights{
+        display: flex;
+        flex-direction: column;
+    }
     
 }
