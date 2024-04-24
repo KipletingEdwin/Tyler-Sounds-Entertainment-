@@ -8,6 +8,7 @@ import headphones from '../../assets/about/headphones.jpg';
 function About() {
   return (
     <section className={styles.container} id='about'>
+      <h2 className={styles.title}>About</h2>
         <div className={styles.ItemsContainer}>
             <div className={styles.aboutImage}>
                 <img  src={tyller} alt='my-image'/>

@@ -13,6 +13,12 @@
     width: 100%;
 }
 
+.title{
+    /* background-color: red; */
+    text-align: center;
+    font-size: 35px;
+}
+
 .ItemsContainer{
     display: flex;
     flex-direction: row;
