@@ -1,0 +1,13 @@
+.container{
+    background-color: red;
+    margin: 0%;
+}
+
+.title{
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    text-decoration: underline;
+}

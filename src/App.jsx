@@ -1,9 +1,10 @@
 
 import styles from './App.module.css'
 import About from './components/About/About'
-import Footer from './components/Footer/Footer'
+// import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Navbar from './components/Navbar/Navbar'
+import Services from './components/Services/Services'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Footer />
+      <Services />
+      {/* <Footer /> */}
      
     </section>
   )
