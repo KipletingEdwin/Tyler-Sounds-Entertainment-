@@ -1,0 +1,87 @@
+.container{
+    background-color: yellow;
+    margin-top: 20px;
+}
+.contact{
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.iconsContainer{
+    padding: 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconsContainer img{
+ 
+    padding: 2%;
+}
+.icons{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.iconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2%;
+    /* background-color: darkcyan; */
+}
+
+.iconsDiv p{
+    font-size: 20px;
+    color: #fff;
+    padding-left: 3%;
+   
+}
+
+.faPhone {
+    height: 30px;
+    padding: 2%;
+    color: #fff;
+
+}
+
+.faEnvelope {
+    height: 30px;
+    padding: 2%;
+    color: #fff;
+}
+
+.contactForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: green; */
+    
+}
+
+.contactForm h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contactForm input{
+    height: 40px;
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 20px;
+}
+
+.contactForm textarea{
+    height: 140px;
+    padding: 10px;
+    margin: 5px 0px;
+    font-size: 20px;
+
+}
