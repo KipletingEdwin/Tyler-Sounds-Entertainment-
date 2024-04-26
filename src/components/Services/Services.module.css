@@ -22,35 +22,44 @@
 
 .services{
     background-color: yellow;
-    padding: 5px 0px;
+    /* padding: 5px 0px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .service{
     /* background-color: deepskyblue; */
     padding: 5px;
-    width: 32%;
     border: 0.3px solid white;
 }
 
-.service h5{
-    font-size: 20px;
-    padding: 5px;
+.subtitle{
+    font-size: 22px;
+    padding: 25px;
     font-style: italic;
+    text-align: center;
+   
+    /* background-color: green; */
 }
 
-.service p{
+.description{
     font-size: 18px;
+    padding: 15px;
+    /* background-color: crimson; */
+}
+
+.imageContainer{
+    /* background-color: yellow;  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.myImage{
+    height: 300px;
+    width: auto;
     padding: 5px;
 }
 
-.imagesCollection{
-    background-color: yellow; 
-}
-
-.imagesCollection img{
-    height: 380px;
-    width: auto;
-}
