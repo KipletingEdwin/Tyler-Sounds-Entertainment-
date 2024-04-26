@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./Services.module.css";
 import services from "../../Data/services.json";
-// import clubImage1 from "../../assets/services/nightclub/club1.jpg";
-// import clubImage2 from "../../assets/services/nightclub/club2.png";
-// import concert from "../../assets/services/concerts/concert1.jpg";
+
 
 function Services() {
   return (
@@ -30,11 +28,6 @@ function Services() {
         ))}
       </div>
 
-      {/* <div className={styles.imagesCollection}>
-        <img src={clubImage1} alt="club" />
-        <img src={clubImage2} alt="club" />
-        <img src={concert} alt="concert" />
-      </div> */}
 
     </section>
   );

@@ -4,9 +4,10 @@
         "description": "Create unforgettable wedding memories with our personalized DJ services, tailored to your unique love story and celebration.",
         "images": [
             "../../src/assets/services/wedding/wedding1.jpg",
+            "../../src/assets/services/wedding/wedding4.jpg",
             "../../src/assets/services/wedding/wedding2.jpg",
-            "../../src/assets/services/wedding/wedding3.jpg",
-            "../../src/assets/services/wedding/wedding4.jpg"
+            "../../src/assets/services/wedding/wedding3.jpg"
+           
         ]
     },
     {
@@ -33,9 +34,10 @@
         "service": "Outdoor Events and Festivals",
         "description": "Bring the beats outdoors with our dynamic DJ services, delivering powerful sound and captivating visuals for unforgettable outdoor experiences.",
         "images": [
-            "../../src/assets/services/outdoor/outdoor1.jpg",
+           
             "../../src/assets/services/outdoor/outdoor2.jpg",
             "../../src/assets/services/outdoor/outdoor3.jpg",
+            "../../src/assets/services/outdoor/outdoor1.jpg",
             "../../src/assets/services/outdoor/outdoor4.jpg"
         ]
     },
