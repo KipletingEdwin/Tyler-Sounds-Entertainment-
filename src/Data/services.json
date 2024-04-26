@@ -1,40 +1,54 @@
 [
     {
         "service": "Wedding DJ Services",
-        "description": "Create unforgettable wedding memories with our personalized DJ services, tailored to your unique love story and celebration."
-    },
-    {
-        "service": "Corporate Events",
-        "description": "Set the perfect ambiance for your corporate event with our professional DJ services, delivering dynamic music and entertainment to elevate your brand presence."
+        "description": "Create unforgettable wedding memories with our personalized DJ services, tailored to your unique love story and celebration.",
+        "images": [
+            "../../src/assets/services/wedding/wedding1.jpg",
+            "../../src/assets/services/wedding/wedding2.jpg",
+            "../../src/assets/services/wedding/wedding3.jpg",
+            "../../src/assets/services/wedding/wedding4.jpg"
+        ]
     },
     {
         "service": "Private Parties",
-        "description": "Turn any private party into a memorable event with our lively DJ performances, keeping the energy high and the dance floor packed all night long."
+        "description": "Turn any private party into a memorable event with our lively DJ performances, keeping the energy high and the dance floor packed all night long.",
+        "images": [
+            "../../src/assets/services/parties/private1.jpg",
+            "../../src/assets/services/parties/private2.jpg",
+            "../../src/assets/services/parties/private3.jpg",
+            "../../src/assets/services/parties/private4.jpg"
+        ]
     },
     {
         "service": "Nightclub and Bar Events",
-        "description": "Ignite the nightlife scene with our electrifying DJ sets, transforming bars and nightclubs into pulsating party destinations."
+        "description": "Ignite the nightlife scene with our electrifying DJ sets, transforming bars and nightclubs into pulsating party destinations.",
+        "images": [
+            "../../src/assets/services/nightclub/club1.jpg",
+            "../../src/assets/services/nightclub/club2.png",
+            "../../src/assets/services/nightclub/club3.jpg",
+            "../../src/assets/services/nightclub/club4.jpg"
+        ]
     },
     {
         "service": "Outdoor Events and Festivals",
-        "description": "Bring the beats outdoors with our dynamic DJ services, delivering powerful sound and captivating visuals for unforgettable outdoor experiences."
+        "description": "Bring the beats outdoors with our dynamic DJ services, delivering powerful sound and captivating visuals for unforgettable outdoor experiences.",
+        "images": [
+            "../../src/assets/services/outdoor/outdoor1.jpg",
+            "../../src/assets/services/outdoor/outdoor2.jpg",
+            "../../src/assets/services/outdoor/outdoor3.jpg",
+            "../../src/assets/services/outdoor/outdoor4.jpg"
+        ]
     },
-    {
-        "service": "Theme Parties and Special Events",
-        "description": "Dive into themed extravaganzas with our curated DJ parties, transporting guests to new worlds of music and magic."
-    },
-    {
-        "service": "School Dances and Proms",
-        "description": "Create lasting memories at school events with our energetic DJ services, providing age-appropriate music and interactive entertainment for students."
-    },
+   
     {
         "service": "Concerts and Live Performances",
-        "description": "Enhance live events with our professional DJ support, delivering seamless audiovisual integration and electrifying energy to concerts and performances."
-    },
-    {
-        "service": "Karaoke and Interactive Entertainment",
-        "description": "Sing your heart out and engage with our karaoke and interactive entertainment options, adding fun and excitement to any gathering."
+        "description": "Enhance live events with our professional DJ support, delivering seamless audiovisual integration and electrifying energy to concerts and performances.",
+        "images": [
+            "../../src/assets/services/concerts/concert1.jpg",
+            "../../src/assets/services/concerts/concert2.jpg",
+            "../../src/assets/services/concerts/concert3.jpg",
+            "../../src/assets/services/concerts/concert4.jpg"
+
+        ]
     }
-
-
 ]
