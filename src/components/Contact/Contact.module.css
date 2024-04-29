@@ -15,6 +15,8 @@
     padding: 5px;
     display: flex;
     flex-direction: row;
+    /* background-color: aquamarine; */
+   
 }
 
 .iconsContainer{
@@ -24,6 +26,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* background-color: red; */
 }
 
 .iconsContainer img{
@@ -67,10 +70,17 @@
 
 .contactForm{
     width: 50%;
+    padding: 0px 10px;
     display: flex;
     flex-direction: column;
     /* background-color: green; */
     
+}
+
+.form{
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
 }
 
 .contactForm h3{
@@ -103,6 +113,7 @@ textarea::placeholder{
     font-size: 20px;
     border-radius: 5px;
     border: 0.5px solid #fff;
+    color: #fff;
 }
 
 .contactForm button{
