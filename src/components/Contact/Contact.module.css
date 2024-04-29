@@ -1,6 +1,14 @@
 .container{
     background-color: yellow;
     margin-top: 20px;
+    color: #fff;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    text-decoration: underline;
 }
 .contact{
     color: #fff;
@@ -76,6 +84,16 @@
     padding: 10px;
     margin: 5px 0px;
     font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: 0.5px solid #fff;
+}
+input::placeholder{
+    color: #fff;
+}
+
+textarea::placeholder{
+    color: #fff;
 }
 
 .contactForm textarea{
@@ -83,5 +101,34 @@
     padding: 10px;
     margin: 5px 0px;
     font-size: 20px;
+    border-radius: 5px;
+    border: 0.5px solid #fff;
+}
 
+.contactForm button{
+    border-radius: 5px;
+    /* color: #fff; */
+    font-size: 20px;
+    border: 0.5px solid #fff;
+    height: 50px;
+    margin-top: 4%;
+    background-color: #cccccc;
+}
+
+@media screen and (max-width: 830px) {
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactForm{
+        background-color: red;
+        width: 100%;
+        padding: 0% 5%;
+    }
+
+    
 }

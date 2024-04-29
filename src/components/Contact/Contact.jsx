@@ -5,8 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
+
   return (
     <section className={styles.container}>
+      <h2 className={styles.title}>Contact Us</h2>
       <div className={styles.contact}>
         <div className={styles.iconsContainer}>
           <img src={contact} alt="contact" />
