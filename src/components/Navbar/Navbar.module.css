@@ -58,6 +58,12 @@
     list-style: none;
 }
 
+.faGreaterThan{
+    display: none;
+}
+
+
+
 
 
 
@@ -114,6 +120,23 @@
 
     .withChildren{
         position: relative;
+    }
+
+    .faGreaterThan{
+        display: block;
+    }
+
+    .subDiv{
+        background-color: yellow;
+        padding: 5px;
+    }
+
+    .faGreaterThan{
+        background-color: grey;
+    }
+
+    .linkText{
+        background-color: green;
     }
     
 
