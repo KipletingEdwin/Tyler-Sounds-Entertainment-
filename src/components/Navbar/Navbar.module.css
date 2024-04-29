@@ -39,16 +39,36 @@
     color: #fff;
 }
 .children{
-    /* display: none; */
     background-color: red;
     color: #fff;
+    position: absolute;
+}
+
+.children ul{
+    list-style: none;
 }
 
 .withChildren{
-    /* display: none; */
     background-color: green;
     color: #fff;
+    position: absolute;
 }
+
+.withChildren ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 830px) { 
@@ -86,8 +106,14 @@
     .menuOpen li{
         /* background-color: green; */
         opacity: 0.6;
-        
-       
+    }
+
+    .children{
+        position: relative;
+    }
+
+    .withChildren{
+        position: relative;
     }
     
 
