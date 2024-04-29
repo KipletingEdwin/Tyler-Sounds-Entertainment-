@@ -38,8 +38,17 @@
     text-decoration: none;
     color: #fff;
 }
+.children{
+    /* display: none; */
+    background-color: red;
+    color: #fff;
+}
 
-
+.withChildren{
+    /* display: none; */
+    background-color: green;
+    color: #fff;
+}
 
 
 @media screen and (max-width: 830px) { 
