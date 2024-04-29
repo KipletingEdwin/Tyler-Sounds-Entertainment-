@@ -48,14 +48,14 @@ function Navbar() {
               hoveredItem === 'audioMixes' && (
                 <div className={styles.children}>
                 <ul>
-                  <li>2024 Mixes</li>
-                  <li>2023 Mixes</li>
-                  <li>2022 Mixes</li>
-                  <li>2021 Mixes</li>
-                  <li>2020 Mixes</li>
-                  <li>2019 Mixes</li>
-                  <li>2018 Mixes</li>
-                  <li>2017 Mixes</li>
+                  <li> <Link to="/2024Mixes"> 2024 Mixes</Link></li>
+                  <li> <Link to="/2023Mixes"> 2023 Mixes</Link></li>
+                  <li> <Link to="/2022Mixes"> 2022 Mixes</Link></li>
+                  <li> <Link to="/2021Mixes"> 2021 Mixes</Link></li>
+                  <li> <Link to="/2020Mixes"> 2020 Mixes</Link></li>
+                  <li> <Link to="/2019Mixes"> 2019 Mixes</Link></li>
+                  <li> <Link to="/2018Mixes"> 2018 Mixes</Link></li>
+                  <li> <Link to="/2017Mixes"> 2017 Mixes</Link></li>
                 </ul>
               </div>
               )

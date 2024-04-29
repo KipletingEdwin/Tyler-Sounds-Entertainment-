@@ -136,9 +136,14 @@ textarea::placeholder{
     }
 
     .contactForm{
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
-        padding: 0% 5%;
+        padding: 3%;
+    }
+
+    .form{
+        /* background-color: yellow; */
+        padding: 0% 2%;
     }
 
     
