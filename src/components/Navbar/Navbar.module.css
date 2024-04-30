@@ -109,7 +109,7 @@
         z-index: 3;
     }
 
-    .menuOpen li{
+    .menuOpen  li{
         /* background-color: green; */
         opacity: 0.6;
     }
@@ -127,17 +127,22 @@
     }
 
     .subDiv{
-        background-color: yellow;
+        /* background-color: yellow; */
         padding: 5px;
     }
 
-    .faGreaterThan{
-        background-color: grey;
+    .link{
+        /* background-color: plum; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
     }
 
-    .linkText{
-        background-color: green;
+    .faGreaterThan{
+        /* background-color: grey; */
+        margin-left: 10px;
     }
-    
 
 }
