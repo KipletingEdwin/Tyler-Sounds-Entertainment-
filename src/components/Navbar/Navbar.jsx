@@ -9,6 +9,7 @@ import { faGreaterThan,faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  
   const [menuOpen, setMenuOpen] = useState(false);
   const [hoveredItem, setHoveredItem] = useState(null);
 
